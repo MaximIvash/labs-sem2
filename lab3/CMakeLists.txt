@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15) # Проверка версии CMake.
 									 # Если версия установленой программы
 									 # старее указаной, произайдёт аварийный выход.
 
-set(PROJECT_NAME lab3)				 # имя проекта		 
+set(PROJECT_NAME lab3sem2)				 # имя проекта		 
 project("${PROJECT_NAME}")
 
 
@@ -11,6 +11,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 	
 
-add_executable("${PROJECT_NAME}" lab3 sem2.cpp
+add_executable("${PROJECT_NAME}" lab3-sem2.cpp
 		
 )
