@@ -13,12 +13,12 @@ namespace mi
     public:
         String() = default;
 
-        String(const char* str) : i_size(strlen(str)), i_str(new char[i_size + 1]) // fast initialization
+        String(const char* str) : i_size(strlen(str)), i_str(new char[i_size + 1]) 
         {
             copy(str, str + i_size + 1, i_str);
         }
 
-        String(String& old) : String(old.i_str) // delegating function
+        String(String& old) : String(old.i_str) 
         {
 
         }
