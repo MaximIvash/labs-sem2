@@ -102,11 +102,11 @@ namespace mi
             cout << '\n';
         }
 
-        char* at(size_t i)
+        char& at(size_t i)
         {
             if (i <= i_size)
             {
-                return (char*&)i_str[i];
+                return i_str[i];
             }
         }
 
