@@ -83,7 +83,7 @@ namespace mi
             }
         }
 
-        size_t& Length()
+        size_t Length()
         {
             return i_size;
         }
@@ -106,7 +106,7 @@ namespace mi
         {
             if (i <= i_size)
             {
-                return (char*)i_str[i];
+                return (char*&)i_str[i];
             }
         }
 
